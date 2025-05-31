@@ -1,0 +1,17 @@
+{
+  "name": "js-basics-autograder",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:logging": "jest srcs/00_logging/index.test.js",
+    "test:variable": "jest srcs/01_variable/index.test.js"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
